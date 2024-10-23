@@ -1,0 +1,20 @@
+{
+    "license": "proprietary",
+    "type": "project",
+    "require-dev": {
+        "phpspec/phpspec": "^7.5"
+    },
+    "config": {
+        "platform": {}
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "spec\\": "spec/"
+        }
+    }
+}
